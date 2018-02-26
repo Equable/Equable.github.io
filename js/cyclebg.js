@@ -10,7 +10,7 @@ function cyclebg(){
 
         $imagesel.eq(whichbg).addClass("show");
         $imagesel.eq(whichbg - 1).removeClass("show");
-    }, 13000);
+    }, 9000);
 
 };
 

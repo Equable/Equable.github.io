@@ -88,7 +88,7 @@ body, html {
 
 .centered p{
     
-    
+    display:flex;
     font-size: 300%;
     font-weight: bold;
     font-family: myFirstFont;

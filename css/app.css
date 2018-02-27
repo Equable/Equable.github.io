@@ -126,5 +126,6 @@ body, html {
  }
 
  html {
+     position: relative;
      overflow-x: hidden;
  }

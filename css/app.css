@@ -71,8 +71,8 @@ body, html {
 
 .centered {
   position: absolute;
-  width: 27.5rem;
-  height: 10rem;
+  width: 100vw;
+  height: 300px;
   display: flex;
   min-width: 0;
   align-items: center;
@@ -80,8 +80,8 @@ body, html {
   text-align: center;
   top: 50%;
   left: 50%;
-  margin-left: -13.75rem;
-  margin-top: -5rem;
+  margin-left: -50vw;
+  margin-top: -150px;
   
 
 }
@@ -89,7 +89,7 @@ body, html {
 .centered p{
     
     display:flex;
-    font-size: 300%;
+    font-size: 5vw;
     font-weight: bold;
     font-family: myFirstFont;
     letter-spacing: 1rem;

@@ -74,6 +74,7 @@ body, html {
   width: 500px;
   height: 600px;
   display: flex;
+  min-width: 0;
   align-items: center;
   justify-content: center;
   text-align: center;

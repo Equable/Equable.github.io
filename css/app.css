@@ -66,6 +66,21 @@ body, html {
 }
 
 
+#search-form, .form-control {
+    margin-bottom: 20px;
+}
+.cover {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-size: cover;
+}
+.cover:hover {
+    cursor: pointer;
+}
+.cover.playing {
+    border: 5px solid #e45343;
+}
 
 
 
@@ -89,16 +104,26 @@ body, html {
 .top-bar{
 
     padding: 0.1rem;
-    -webkit-box-shadow: 0rem 1rem 1rem #000;
-    -moz-box-shadow: 0rem 1rem 1rem #000;
-    box-shadow: 0rem 1rem 1rem #000;
+    -webkit-box-shadow: 0rem 1rem 5rem .5rem #000;
+    -moz-box-shadow: 0rem 1rem 5rem .5rem #000;
+    box-shadow: 0rem 1rem 5rem .5rem #000;
+}
+
+.menu .menu-home{
+    color: white;
+    font-family: myFirstFont;
+    letter-spacing: .5rem;
+    font-size: 150%;
+    padding: .5rem .5rem;
 }
 
 .menu .menu-text{
     color: white;
     font-family: myFirstFont;
-    letter-spacing: .5rem;
-    font-size: 150%;
+    letter-spacing: .25rem;
+    font-size: 100%;
+
+    
 }
 .menu li, .menu a {
 

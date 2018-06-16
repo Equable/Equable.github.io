@@ -116,7 +116,7 @@ body, html {
     font-family: myFirstFont;
     letter-spacing: .5rem;
     font-size: 150%;
-    padding: .5rem .5rem;
+    padding: .5rem .3rem;
 }
 
 .menu .menu-text{
